@@ -14,13 +14,13 @@ h1 {
 .key {
     color: white;
     display: inline-block;
-    position: justify; 
     top: 50%;
     position: relative;
     padding: 10px;
     margin: 20px;
     border: 1px solid white; 
     width: 4vw;
+    transition: all 0.06s; /* time of transition for classes */
 }
 
 .key-p {
