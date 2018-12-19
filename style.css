@@ -1,0 +1,34 @@
+h1 {
+    color: red;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://www.youredm.com/wp-content/uploads/2018/03/Main-Stage-photo-by-Philippe-Wuyts-2.jpg); 
+    height: 100vh;
+    background-position: center;
+    background-size: cover; /*re-size image based on window*/
+    
+    text-align: center;
+}
+
+.key {
+    color: white;
+    display: inline-block;
+    position: justify; 
+    top: 50%;
+    position: relative;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid white; 
+    width: 4vw;
+}
+
+.key-p {
+    font-size: .5em;
+}
+
+.key-press {
+    transform: scale(1.1);
+    color: crimson;
+    border: 4px solid crimson; 
+}
