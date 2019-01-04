@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .8)), url(aditya-chinchure-494048-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-keys {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    min-height: 100vh;
+}
+
+.key {
+    flex: 1; 
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: all .09s;
+    color: white;
+    flex: 1;
+    border: 1px solid white;
+}
+
+.key-press {
+    transform: scale(1.13);
+    color: red; 
+    
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: .5em;
+}
+
+a {
+    color: red;
+}
